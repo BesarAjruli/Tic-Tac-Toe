@@ -1,0 +1,48 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#grid{
+    display: grid;
+    grid-template:repeat(3, 1fr) / repeat(3, 1fr);
+    width: fit-content;
+    pointer-events: none;
+}
+.gridCell{
+    width: 120px;
+    height: 120px;
+    border: 2px solid #444444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    font-weight: 400;
+}
+main>div{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+main>div button {
+    background-color: #77DD77;
+    color: white;
+    margin: 20px 30px;
+    border: 0;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+}
+main>div>button+button {
+    background-color: #FF6961;
+}
+header{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    color: #9B7653;
+}
