@@ -3,7 +3,6 @@
 ---
 
 # Technologies Used
----
 * **Frontend:** HTML, CSS, JavaScript
 
 # Take it for a spin
