@@ -2,9 +2,9 @@
 
 ---
 
-#Technologies Used
+# Technologies Used
 ---
-* *Frontend:* HTML, CSS, JavaScript
+* **Frontend:** HTML, CSS, JavaScript
 
-#Take it for a spin
+# Take it for a spin
 [Tic Tac Toe game](https://besarajruli.github.io/Tic-Tac-Toe/)
